@@ -2,7 +2,7 @@
 {
   margin : 0;
   padding : 0;
-  font-family : consolas;
+  font-family : Arial, Helvetica, sans-serif;
   box-sizing : border-box;
 }
 
@@ -41,28 +41,6 @@ a
   animation: blink 1s linear infinite;
 }
 
-a:nth-child(1)
-{
-  filter: hue-rotate(20deg)
-}
-
-a:nth-child(3)
-{
-  filter: hue-rotate(110deg)
-}
-
-a:hover
-{
-  background: #03e9f4;
-  color: #050801;
-  box-shadow: 0 0 5px #03e9f4,
-              0 0 25px #03e9f4,
-              0 0 50px #03e9f4,
-              0 0 200px #03e9f4;
-}
-
-
-
 @keyframes blink {
 
   0% { background: #03e9f4;
@@ -82,4 +60,19 @@ a:hover
                 0 0 25px #03e9f4,
                 0 0 50px #03e9f4,
                 0 0 200px #03e9f4;}
+}
+
+.zero
+{
+  filter: hue-rotate(0deg);
+}
+
+.oneonezero
+{
+  filter: hue-rotate(110deg);
+}
+
+.threeh
+{
+  filter: hue-rotate(300deg);
 }
